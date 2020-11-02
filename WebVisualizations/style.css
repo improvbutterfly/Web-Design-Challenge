@@ -1,0 +1,61 @@
+body {
+	background-color: #D3F5FE;
+	font-family: "Calibri", "Arial", "Sans"
+}
+
+h1 {
+	background-color: #1426A0;
+	color: white;
+	padding: 20px;
+	padding-top: 80px;
+	font-family: "Copperplate", "Century Gothic", "Times New Roman", "Times", "Sans-Serif"
+
+}
+
+h2 {
+	color: #3CC1B6;
+	padding: 10px;
+	font-family: "Copperplate", "Century Gothic", "Times New Roman", "Times", "Sans-Serif"
+}
+
+p {
+	margin: 20px;
+}
+figure {
+	text-align: center;
+}
+.visualizations-menu img {
+	padding: 10px;
+}
+.visualizations-active figure {
+	border-style: solid;
+	border-width: 3px;
+	border-color: #1426A0;
+}
+
+.latitude-nav {
+	font-family: "Andale Mono", "Cambria";
+}
+
+.latitude-nav nav {
+	background-color: #0DAAC2;
+}
+.latitude-nav a {
+	color: #1426A0;
+}
+.latitude-nav ul {
+	text-align: right;
+}
+
+.box {
+  padding: 10px;
+  margin: 5px;
+  color: #fff;
+  border-style: solid; 
+  border-width: 2px;
+  border-color: #3CC1B6;
+}
+
+.visualizations {
+  background: white;
+}
