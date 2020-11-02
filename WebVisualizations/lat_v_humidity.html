@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Latitude vs. Humidity</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="latitude-nav">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+      <a class="navbar-brand home-button" href="index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="lat_v_temp.html">Latitude vs. Temperature</a>
+              <a class="dropdown-item" href="lat_v_cloudiness.html">Latitude vs. Cloudiness</a>
+              <a class="dropdown-item active" href="lat_v_humidity.html">Latitude vs. Humidity</a>
+              <a class="dropdown-item" href="lat_v_wind.html">Latitude vs. Wind</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <h1>Latitude vs. Humidity</h1>
+<main>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="box visualizations">
+          <h2>Humidity</h2>
+          <hr />
+          <figure>
+            <img src="Resources/assets/visualizations/lat_humidity_2020-09-25.png" class="img-fluid" />
+          </figure>
+          <p>Humidity looks fairly evenly distributed across cities, which suggests minimal correlation. This could be a seasonal issue. Given that this chart is during autumn for the Northern Hemisphere, and spring for the Southern Hemisphere, I think it could be interesting to compare with a chart during summer/winter.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="box visualizations">
+          <h2>Visualizations</h2>
+          <hr />
+          <div class="row">
+            <div class="col-sm">
+              <figure class="visualizations-menu">
+                <a href="lat_v_temp.html"><img src="Resources/assets/visualizations/lat_temp_2020-09-25.png" class="img-fluid" /></a>
+              </figure>
+            </div>
+            <div class="col-sm visualizations-active">
+              <figure class="visualizations-menu">
+                <a href="lat_v_humidity.html"><img src="Resources/assets/visualizations/lat_humidity_2020-09-25.png" class="img-fluid" /></a>
+              </figure>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <figure class="visualizations-menu">
+                <a href="lat_v_cloudiness.html"><img src="Resources/assets/visualizations/lat_cloud_2020-09-25.png" class="img-fluid" /></a>
+              </figure>
+            </div>
+            <div class="col-sm">
+              <figure class="visualizations-menu">
+                <a href="lat_v_wind.html"><img src="Resources/assets/visualizations/lat_wind_2020-09-25.png" class="img-fluid" /></a>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+  <footer class="card-footer footer-position vis-footer">
+    <div class="container">
+      Visualization Website created by <a href="https://www.github.com/improvbutterfly" target="_blank">Dominica Corless</a>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
