@@ -22,6 +22,12 @@ h2 {
 	font-family: "Copperplate", "Century Gothic", "Times New Roman", "Times", "Sans-Serif"
 }
 
+h3 {
+	color: #1426A0;
+	text-align: center;
+	font-family: "Copperplate", "Century Gothic", "Times New Roman", "Times", "Sans-Serif"
+}
+
 p {
 	margin: 20px;
 	color: black;
